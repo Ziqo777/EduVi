@@ -1,0 +1,301 @@
+<button type="button" class="btn btn-dark">Dark</button> 
+
+
+
+
+linkin dalinan target="_blank"
+
+{
+    "liveServer.settings.port": 5501
+}
+
+
+
+.nav-link {
+  color: rgb(127, 7, 7);
+}
+.sidebar {
+  color: rgb(2, 109, 26);
+  background-color: #740202;
+}
+
+@keyframes myAnim {
+  0% 100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30%) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+в архитектуре после 21 
+
+       <nav class="navbar navbar-expand-lg bg-dark">
+            <span id="userName"> </span><span id="signOutButton" style="color: white;">⍇</span>
+          </nav>
+
+
+<div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="ресурсы/files/logo png.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            </div>
+          </div>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="ресурсы/styles/mycss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="ресурсы/files/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="ресурсы/files/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ресурсы/files/icon/favicon-16x16.png">
+    <link rel="manifest" href="ресурсы/files/icon/site.webmanifest">
+    <title>EduVista</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="ресурсы/files/logo png.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">მთავარი</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="lessons.html">ელემენტები</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid mt-4">
+          <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10 col-md-12">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4">
+                 <div class="card">
+                   <a href=""><img src="ресурсы/images/playing-digital-piano-concept.jpg" class="card-img-top" alt="..."></a>
+                   <div class="card-body">
+                     <h5 class="card-title"><a href="music.html"><h4>მუსიკა</h4></a></h5>
+                     <p class="card-text"><a href="music.html">მუსიკალური ინსტრუმენტები</a></p>
+                     <a href="music.html" class="btn btn-outline-primary">დაიწყე</a>
+                   </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                 <div class="card">
+                   <a href=""><img src="ресурсы/images/cook.jpg" class="card-img-top" alt="..."></a>
+                   <div class="card-body">
+                     <h5 class="card-title"><a href="kulinar.html"><h4>კულინარია</h4></a></h5>
+                     <p class="card-text"><a href="kulinar.html">კერძების რეცეპტები</a></p>
+                     <a href="kulinar.html" class="btn btn-outline-primary">დაიწყე</a>
+                   </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                 <div class="card">
+                   <a href=""><img src="ресурсы/images/язык.jpg" class="card-img-top" alt="..."></a>
+                   <div class="card-body">
+                     <h5 class="card-title"><a href="kartuli.html"><h4>ქართული ენა</h4></a></h5>
+                     <p class="card-text"><a href="kartuli.html">ენის ძირითადი ელემენტები</a></p>
+                     <a href="kartuli.html" class="btn btn-outline-primary">დაიწყე</a>
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4">
+                  <div class="card">
+                    <a href=""><img src="ресурсы/images/im.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="inglisuri.html"><h4>ინგლისური ენა</h4></a></h5>
+                      <p class="card-text"><a href="inglisuri.html">ენის ძირითადი ელემენტები</a></p>
+                      <a href="inglisuri.html" class="btn btn-outline-primary">დაიწყე</a>
+                    </div>
+                   </div>
+                 </div> 
+
+                <div class="col-lg-4 col-md-6 mt-4">
+                 <div class="card">
+                   <a href=""><img src="ресурсы/images/sds.jpg" class="card-img-top" alt="..."></a>
+                   <div class="card-body">
+                     <h5 class="card-title"><a href="matt.html"><h4>მატემატიკა</h4></a></h5>
+                     <p class="card-text"><a href="matt.html">მატემატიკის ძირითადი ელემეტები</a></p>
+                     <a href="matt.html" class="btn btn-outline-primary">დაიწყე</a>
+                   </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                 <div class="card">
+                   <a href=""><img src="ресурсы/images/arrrr.jpg" class="card-img-top" alt="..."></a>
+                   <div class="card-body">
+                     <h5 class="card-title"><a href="arkitek.html"><h4>არქიტექტურა</h4></a></h5>
+                     <p class="card-text"><a href="arkitek.html">ხაზვისა და დიზაინის ძირითადი ელემენტები</a></p>
+                     <a href="arkitek.html" class="btn btn-outline-primary">დაიწყე</a>
+                   </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                 <div class="card">
+                   <a href=""><img src="ресурсы/images/fizd.jpg" class="card-img-top" alt="..."></a>
+                   <div class="card-body">
+                     <h5 class="card-title"><a href="fizika.html"><h4>ფიზიკა</h4></a></h5>
+                     <p class="card-text"><a href="fizika.html">ძირითადი ფორმულები</a></p>
+                     <a href="fizika.html" class="btn btn-outline-primary">დაიწყე</a>
+                   </div>
+                  </div>
+                </div> 
+                <div class="col-lg-4 col-md-6 mt-4" >
+                  <div class="card">
+                    <a href=""><img src="ресурсы/images/ხხ.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h5 class="card-title"><a href=""><h4>ქიმია</h4></a></h5>
+                      <p class="card-text"><a href="">უფჰიჯდკს</a></p>
+                      <a href="#" class="btn btn-outline-primary">დაიწყე</a>
+                    </div>
+                   </div>
+                 </div>
+
+                 <div class="col-lg-4 col-md-6 mt-4">
+                 <div class="card">
+                   <a href=""><img src="ресурсы/images/програмирование.jpg" class="card-img-top" alt="..."></a>
+                   <div class="card-body">
+                     <h5 class="card-title"><a href="prog.html"><h4>პროგრამირება</h4></a></h5>
+                     <p class="card-text"><a href="prog.html">პროგრამირების ენები</a></p>
+                     <a href="prog.html" class="btn btn-outline-primary">დაიწყე</a>
+                   </div>
+                  </div>
+                </div>
+
+
+               
+               </div>
+
+            
+
+          </div>
+
+
+        </div>
+    </section>
+    
+    <footer class="mt-4">
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p><h5>ყველა უფლება დაცულია. 2024</h5></p>
+   
+        </div>
+        <div class="col-lg-4 col-md-12 footer-text text-center">  
+          <p>კონტაქტები<br>+995555119715<br>+995591079666</p>
+        </div>
+        <div class="col-lg-4 col-md-12 footer-text text-center">  
+          <p>gmail მისამართები:<br>@giulli.akhundova.1@iliauni.edu.ge<br>@ziadin.mirzoev.1@iliauni.edu.ge</p>
+        </div>
+        </div>
+      </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+<button type="button" class="btn btn-outline-dark btn-lg my-4"><a href="lessons.html"><h3>დაიწყე სწავლა</h3></a></button>
+
+
+
+              <div class="col-lg-12 col-md-12 text-center mt-4">
+                <a href="lessons.html" class="btn btn-dark btn-lg  my-4">დაიწყე სწავლა</a>
+                
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              უკან დაბრუნების კოდი
+
+              <script>
+    var userName = localStorage.getItem("userName");
+    document.getElementById("userName").innerText = userName;
+    document.getElementById("signOutButton").addEventListener("click", function() {
+    // Remove username from localStorage
+    localStorage.removeItem("userName");
+    // Redirect to the index page
+    window.location.href = "index.html";
+});
+
+if (!userName) {
+    // If username exists, hide the input and button
+    document.getElementById("signOutButton").style.display = "none";
+}
+  </script>
+  <button class="back-button" onclick="history.back();">
+    <span style="font-size: 24px;">⬅</span> უკან
+  </button>
+  </body>

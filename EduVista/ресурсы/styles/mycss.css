@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=NotoSerifGeorgian&display=swap");
+
+body {
+  font-family: NotoSerifGeorgian, serif;
+  background-color: #7c7b77;
+}
+.card-body {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.fullname-input {
+  height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+#userName {
+  color: white;
+  margin-right: 2rem;
+  width: 200px;
+}
+
+#signOutButton {
+  margin-right: 10px;
+}
+p {
+  color:rgb(219, 217, 217);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(133, 135, 140);
+}
+
+.navbar-brand img {
+  width: 140px; 
+}
+
+.navbar-toggler {
+  background-color: rgb(195, 190, 190);
+}
+
+.card {
+  background-color: #5c5959;
+}
+
+.card a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.slide-text,
+.footer-text {
+  color: rgb(247, 239, 239);
+  margin: auto auto;
+}
+
+footer,
+.btn-outline-dark {
+  background-color: rgb(40, 43, 44);
+}
+
+.btn-outline-primary {
+  background-color: rgb(40, 43, 44);
+}
+
+.btn-primary {
+  background-color: #787575;
+}
+
+.button {
+  color: white;
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  color: white;
+}
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
